@@ -1,4 +1,4 @@
-param location array
+param location string
 param prefix string
 
 param vnetSettings object = {
