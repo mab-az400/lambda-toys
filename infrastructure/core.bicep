@@ -1,5 +1,7 @@
-param location string
-param prefix string
+
+param location string = resourceGroup().location
+
+param prefix string ='lmbd'
 
 param vnetSettings object = {
   addressPrefixes: [
